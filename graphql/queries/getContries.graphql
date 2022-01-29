@@ -1,0 +1,27 @@
+# Write your query or mutation here
+query getContries {
+  countries {
+    code,
+    name,
+    native,
+    phone,
+    continent {
+      code,
+      name,
+    },
+    capital,
+    currency,
+    languages {
+    	code,
+    	name,
+      native,
+      rtl
+  	},
+    emoji,
+    emojiU,
+    states {
+      code,
+      name
+    }
+  }
+}
